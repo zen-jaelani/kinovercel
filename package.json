@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/Qxtlp/kinovercel#readme",
   "dependencies": {
-    "@redis/client": "^1.3.0",
     "bcrypt": "^5.0.1",
     "body-parser": "^1.19.2",
     "cloudinary": "^1.29.0",
