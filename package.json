@@ -1,22 +1,55 @@
 {
-  "name": "express-vercel",
-  "version": "0.5.0",
-  "description": "express vercel boilerplate",
+  "name": "kinovercel",
+  "version": "1.0.0",
+  "description": "",
   "main": "app.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "vercel dev",
     "test": "jest -i"
   },
-  "dependencies": {
-    "express": "^4.17.1",
-    "helmet": "^4.6.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qxtlp/kinovercel.git"
   },
-  "keywords": [
-    "vercel"
-  ],
-  "author": "Kizito Akhilome <kizito@akhilo.me>",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Qxtlp/kinovercel/issues"
+  },
+  "homepage": "https://github.com/Qxtlp/kinovercel#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "cloudinary": "^1.29.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "googleapis": "^100.0.0",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "midtrans-client": "^1.3.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "multer-storage-cloudinary": "^4.0.0",
+    "mustache": "^4.2.0",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.3",
+    "redis": "^4.0.4",
+    "uuid": "^8.3.2",
+    "xss-clean": "^0.1.1"
+  },
   "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.0",
     "@types/jest": "^26.0.23",
     "jest": "^27.0.3",
     "supertest": "^6.1.3"
