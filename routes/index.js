@@ -5,8 +5,11 @@ const demo = require("./demo.route");
 
 const r = Router();
 
+const movieRoutes = require("../modules/movie/movieRoutes");
+
 r.use("/demo", demo);
 
+r.use("/movie", movieRoutes);
 r.get("/", (req, res) =>
   res.json(new SuccessResponseObject(`express vercel boiler plate ${uuidv4()}`))
 );
